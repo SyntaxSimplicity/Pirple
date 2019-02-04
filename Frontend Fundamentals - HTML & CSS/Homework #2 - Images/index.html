@@ -2,20 +2,21 @@
 ===================================================================================================
 ===================================================================================================
 
-Homework Assignment #1: Lists
+Homework Assignment #2: Images
 
 Details:
  
-What's your favorite food? Do you know how to make it yourself? If not, look up the recipe online.
-Next, create an HTML document, and within the body of the page, create two lists:
+It's time to make your recipe (from homework #1) a little more exciting. 
 
-1. The first list should be an unordered list of all the ingredients needed to make the dish.
-
-2. The second list should be an ordered list, detailing the steps you need to take to prepare that dish.
+1. Add a title to your page (within the <head>) and an actual <h1> title on the page.
+2. Below the h1, add a paragraph that explains what the food is, and why you like it so much.
+3. Add emojis to your second list (the ordered list), so that at least 5 of the lines end with an emoji character. You can find emojis online pretty easily.
+   Download them from your favorite emoji website and then upload them somewhere so you can link to them on your HTML page.
+4. Below your final list, add another paragraph that describes what the dish should look, smell, and taste like when it's all done.
 
 Extra Credit:
 
-For extra credit, add comments to your HTML, to explain the purpose of each section of code that you create.
+Below the final paragraph on the page, add a few images of finished versions of your dish so that the reader can see what the final product should look like.
 
 ===================================================================================================
 ===================================================================================================
@@ -25,12 +26,19 @@ For extra credit, add comments to your HTML, to explain the purpose of each sect
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Homework #1 - Lists</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Homework #2 - Images</title>
 </head>
 <body>
+
+	<h1>Lemon-Caper Parmesan Potato Salad Bites</h1>
+	<p>This is a great appetizer. It is more a mini stuffed baked potato instead if a potato salad.
+		Transports well to a party in a mini muffin pan. It comes from a Cooking Light issue. 
+		Many of the ingredients could be changed for variety.
+
+		and i like this dish because </p>
 	<h3>Ingredients</h3> <!-- Sub title -->
 	<ul> <!-- Start Unordered List -->
 		<li>12 small red potatoes, halved (about 1 1/4 pounds)</li>
@@ -47,15 +55,26 @@ For extra credit, add comments to your HTML, to explain the purpose of each sect
 	
 	<h3>Directions</h3> <!-- Sub Title -->
 	<ol> <!-- Start Ordered List -->
-		<li>Preheat oven to 450°.</li>
+		<li>Preheat oven to 450°.🤗</li>
 		<li>Combine potatoes and oil; toss to coat. Arrange potatoes, cut sides down, in a single layer on a parchment paper–lined baking sheet.<br />
-			Bake at 450° for 20 minutes. Turn potatoes; bake 10 minutes. Remove and cool 20 minutes.</li>
-		<li>Preheat broiler to high.</li>
+			Bake at 450° for 20 minutes. Turn potatoes; bake 10 minutes. Remove and cool 20 minutes.🤭
+		</li>
+		<li>Preheat broiler to high.🤐</li>
 		<li>Using a paring knife, carefully cut a circle in the cut side of potatoes.<br />
 			Using a melon baller or small spoon, remove pulp from potato, leaving a thin shell.<br />
 			Combine pulp, sour cream, 1 tablespoon chives, and next 5 ingredients (through pepper).<br />
-			Evenly fill potato shells with filling; sprinkle with cheese and remaining 1 tablespoon chives.</li>
-		<li>Broil potatoes for 2 minutes or until cheese is lightly browned.</li>
+			Evenly fill potato shells with filling; sprinkle with cheese and remaining 1 tablespoon chives.😯
+		</li>
+		<li>Broil potatoes for 2 minutes or until cheese is lightly browned.😲</li>
 	</ol> <!-- End Ordered List -->
+
+	<p>This dish is incredible and you can feel it with every bite. starting from the crunchy top of the potato and the softness as your teeth dig deeper
+		the taste of the salad that mixes together with the potato and the taste of every single ingredient that makes it a tasty dish :).
+	</p>
+	<div><img src="./Resources/images/1.jpg" alt="Potato with Salad" width="200px" height="250px" />
+		<img src="./Resources/images/2.jpg" alt="Potato with Salad" width="320px" height="250px" />
+		<img src="./Resources/images/3.jpg" alt="Potato with Salad" width="200px" height="250px" />
+		<img src="./Resources/images/4.jpg" alt="Potato with Salad" width="320px" height="250px" />
+	</div>
 </body>
 </html>
